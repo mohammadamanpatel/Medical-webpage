@@ -1,0 +1,29 @@
+.end-section{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin:200px 0;
+    gap: 25px;
+    text-align: center;
+}
+.end-section h2{
+    color: #20BC7E;
+}
+.span-div{
+    display: flex;
+    gap: 15px;
+}
+.About-span{
+   display: block;
+   cursor: pointer;
+   border: 2px solid black;
+   height: 90px;
+   width: 190px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgb(115, 113, 113);
+}
+.About-span p{
+   margin-top: 20px;
+   color: #20BC7E;
+   font-weight: bolder;
+}

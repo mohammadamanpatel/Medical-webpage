@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+#logo{
+   margin-top: 12px;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+}
+.ul-div{
+    display: flex;
+    gap: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 12px 42px;
+    background:url(./stethoscope.png);
+    background-size:  contain;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.section-left-btn{
+    background-color: rgb(13, 163, 51);
+    color: white;
+    padding: 12px 9px;
+    border-radius: 33px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.greenBox{
+    position: absolute;
+    height: 394px;
+    width: 385px;
+}
+.yellowBox{
+    position: relative;
+    margin: 52px 55px;
+    height: 339px;
+    width: 313px;
+}
+.greenbox-yellowbox{
+    position: absolute;
+    margin: 121px 37px;
+}
+.doctor{
+    position: relative;
+    height: 512px;
+    width: 365px;
+    margin-left: 46px;
+    margin-bottom: 50px;
+}
+ 
+.bottom{
+   display: flex;
+   align-items: center;
+   gap: 200px;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    gap: 20px;
+}
+#bottom-angle{
+    margin-right: 35px;
+}
+#mouse{
+   margin-left: 23px;
+}
+.common{
+    margin: 11px 0;
+}

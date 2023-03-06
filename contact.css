@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Contact{
+    margin: 122px;
+    box-shadow: 0 0 5px black;
+    border-radius: 8px;
+}
+.input-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f0ebeb;
+  gap: 10px;
+  height: 28vw;
+  width: 22vw;
+}
+.input-div h2{
+    align-self: center;
+}
+.input-div button{
+   width: 20vw;
+   padding: 10px;
+   margin-left: 15px;
+   border-radius: 7px;
+   background-color: #20BC7E;
+   color: white;
+}
+.input-div button:hover{
+    background-color: white;
+    color: #20BC7E;
+}
+.input-div input{
+    width: 20vw;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+}
+.message{
+    height: 100px;
+}
